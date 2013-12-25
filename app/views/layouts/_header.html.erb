@@ -1,0 +1,26 @@
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><%= link_to "Karen's Krafts", root_path%></h1>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+
+  <ul class="right">
+      <li class="active"> <%= link_to "Previous Posts!", blogs_path %> </li>
+      <li class="has-dropdown">
+        <a> More From This Site! </a>
+        <ul class="dropdown">
+          <li> <%= link_to "About", about_path%> </li>
+          <li><%= link_to "Contact", contact_path%> </li>
+          <li><%= link_to "Helpful Links", '#'%> </li>
+        </ul>
+      </li>
+    </ul>
+
+    
+  </section>
+</nav>

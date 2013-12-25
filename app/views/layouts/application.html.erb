@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+
+  <body>
+      <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+    <div style="margin-left-right:10%;">
+  <%= render 'layouts/header' %>
+   
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
+    <br><br><br><br> <br><br><br><br>
+    <%= render 'layouts/footer' %>
+  </div>
+  
+  </body>
+
+</html>

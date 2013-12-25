@@ -1,0 +1,12 @@
+<h1> Helpful Links</h1>
+
+
+<% @websites.each do |website| %> 
+       	<%= auto_link(website.link) %>
+        <%= link_to 'Delete Post', website, :method => :delete, :confirm => "Are you sure?" %> ||
+ 		<%= link_to 'Edit Link', edit_website_path(website) %>
+        
+        <br><br><br>
+        <hr color="#000000" size="5">
+        <br><br><br>
+    <% end %> 

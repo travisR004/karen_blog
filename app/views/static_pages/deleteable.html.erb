@@ -1,0 +1,12 @@
+<h1>Posts</h1>
+
+
+ <% @blogs.each do |post| %> 
+        <h4><%= post.title %></h4>
+ 		<%= link_to 'Delete Post', post, :method => :delete, :confirm => "Are you sure?" %> ||
+ 		<%= link_to 'Edit Blog Entry', edit_blog_path(post) %>
+        
+        <br><br><br>
+        <hr color="#000000" size="5">
+        <br><br><br>
+    <% end %> 
