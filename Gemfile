@@ -2,11 +2,17 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0'
+<<<<<<< HEAD
 gem 'foundation-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'rails_autolink'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'will_paginate', '~> 3.0'
+=======
+gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'rails_autolink'
+>>>>>>> 7811a079d7353890eced3c4381da664a0b2fb906
 
 group :development, :test do
 

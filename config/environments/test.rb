@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 MomBlog::Application.configure do
+=======
+KarenBlog::Application.configure do
+>>>>>>> 7811a079d7353890eced3c4381da664a0b2fb906
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's

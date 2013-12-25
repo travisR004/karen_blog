@@ -3,4 +3,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 MomBlog::Application.load_tasks
+=======
+KarenBlog::Application.load_tasks
+>>>>>>> 7811a079d7353890eced3c4381da664a0b2fb906

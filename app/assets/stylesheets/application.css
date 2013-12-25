@@ -8,6 +8,7 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+<<<<<<< HEAD
   *= require foundation_and_overrides
  *= require_self
  *= require foundation_and_overrides
@@ -24,3 +25,8 @@ footer {
   position: fixed;
   bottom: 0;
 }
+=======
+ *= require_self
+ *= require_tree .
+ */
+>>>>>>> 7811a079d7353890eced3c4381da664a0b2fb906

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MomBlog::Application.routes.draw do
   resources :websites
 
@@ -10,6 +11,9 @@ MomBlog::Application.routes.draw do
   match '/about',       to: 'static_pages#about',          via: 'get'
   match '/contact',     to: 'static_pages#contact',        via: 'get'
   match '/admin',       to: 'static_pages#admin',          via: 'get'
+=======
+KarenBlog::Application.routes.draw do
+>>>>>>> 7811a079d7353890eced3c4381da664a0b2fb906
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
